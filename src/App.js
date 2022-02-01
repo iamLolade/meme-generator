@@ -5,7 +5,9 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Meme />
+      <div className="container">
+        <Meme />
+      </div>
     </div>
   );
 }

@@ -5,6 +5,7 @@
 body {
   font-family: "Karla", sans-serif;
   margin: 0;
+  background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
 }
 
 .nav {
@@ -22,8 +23,8 @@ body {
 }
 
 .nav--title {
-  font-size: 1.85rem;
-  letter-spacing: 5px;
+  font-size: 1.55rem;
+  letter-spacing: 6px;
   margin-right: auto;
 }
 
@@ -33,14 +34,22 @@ body {
   letter-spacing: 10px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
 main {
-  padding: 50px 100px;
+  padding: 50px 80px;
 }
 
 .form {
   display: grid;
   grid-template: 60px 70px / 1fr 1fr;
   gap: 20px;
+  margin-bottom: 20px;
 }
 
 .form--input {
@@ -60,4 +69,14 @@ main {
   color: white;
   border: none;
   cursor: pointer;
+}
+
+.meme--div {
+  display: flex;
+  justify-content: center;
+}
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 5px;
 }
